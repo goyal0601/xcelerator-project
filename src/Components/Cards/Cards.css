@@ -1,0 +1,53 @@
+.container{
+    padding: 10px 250px;
+}
+
+.flex{
+    display:flex
+}
+
+.card-box{
+    display:flex;
+    border-radius: 3px;
+    margin: 20px auto;
+    padding: 8px 16px 8px 8px;
+    height: 200px;
+    width: 100%;
+    border: 2px solid rgba(0,0,0,0.16);
+    
+}
+
+.card-box:hover{
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.card-box-left{
+    flex-grow:1;
+    flex-basis: 0;
+    flex-shrink: 0px
+}
+
+.title{
+    font-weight:600;
+    font-size:16px;
+}
+
+.like-dislike-count{
+    font-weight:600;
+    font-size:16px;
+}
+
+.card-box-right{
+    flex-grow:3;
+    flex-basis: 0;
+    flex-shrink: 0px
+}
+
+.like-dislike{
+    margin: 20px 0 0 0;
+    width:100px;
+    justify-content: space-between
+}
+
+

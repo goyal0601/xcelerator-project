@@ -1,0 +1,49 @@
+.container{
+    padding: 10px 250px;
+}
+
+.flex{
+    display:flex
+}
+
+.card{
+    border-radius: 3px;
+    margin: 20px auto;
+    padding: 8px 16px 8px 8px;
+    width: 100%;
+    border: 1px solid grey
+    
+}
+
+.card-box-left{
+    flex-grow:1;
+    flex-basis: 0;
+    flex-shrink: 0px
+}
+
+.title{
+    font-weight:600;
+    font-size:16px;
+}
+
+.like-dislike-count{
+    font-weight:600;
+    font-size:16px;
+}
+
+.card-box-right{
+    position:relative;
+    flex-grow:3;
+    flex-basis: 0;
+    flex-shrink: 0px
+}
+
+.like-dislike{
+    position:absolute;
+    bottom:10px;
+    margin: 20px 0 0 0;
+    width:100px;
+    justify-content: space-between
+}
+
+
